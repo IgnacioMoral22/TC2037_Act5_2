@@ -9,6 +9,7 @@ By default, this will attempt to use the maximum number of cores your computer h
 
 ## Running to 5,000,000
 If we run Hw.Primes.sum_primes(5000000), the result is correct, showing 838596693109. This takes 15.753523 seconds.
+
 If we run Hw.Primes.sum_primes_parallel(5000000, 4), since my machine has 4 cores, the result is also 838596693109, but it takes 5.934796 seconds instead.
 
 ## Measuring time complexity
