@@ -4,7 +4,7 @@ To run this program, use iex Tarea_Paralela.exs
 
 For running a prime sum in secuential order, run Hw.Primes.sum_primes(number), changing number for the maximum number to which you want to sum to.
 
-For running a prime sum in secuential order, run Hw.Primes.sum_primes_parallel(number), changing number for the maximum number to which you want to sum to.
+For running a prime sum using threads, run Hw.Primes.sum_primes_parallel(number), changing number for the maximum number to which you want to sum to.
 By default, this will attempt to use the maximum number of cores your computer has. If you want to use less cores, you can run Hw.Primes.sum_primes_parallel(number, cores), changing "cores" to the number of threads you wish to start.
 
 ## Running to 5,000,000
